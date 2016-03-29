@@ -13,6 +13,8 @@
 		4292971E1CAA0A2D003E0F0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4292971C1CAA0A2D003E0F0D /* Main.storyboard */; };
 		429297201CAA0A2D003E0F0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4292971F1CAA0A2D003E0F0D /* Assets.xcassets */; };
 		429297231CAA0A2D003E0F0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 429297211CAA0A2D003E0F0D /* LaunchScreen.storyboard */; };
+		4292972B1CAA0A36003E0F0D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4292972A1CAA0A36003E0F0D /* MapKit.framework */; };
+		4292972D1CAA2083003E0F0D /* trace.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4292972C1CAA2083003E0F0D /* trace.gpx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		4292971F1CAA0A2D003E0F0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		429297221CAA0A2D003E0F0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		429297241CAA0A2D003E0F0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4292972A1CAA0A36003E0F0D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		4292972C1CAA2083003E0F0D /* trace.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = trace.gpx; path = ../trace.gpx; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4292972B1CAA0A36003E0F0D /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +47,7 @@
 		429297071CAA0A2D003E0F0D = {
 			isa = PBXGroup;
 			children = (
+				4292972A1CAA0A36003E0F0D /* MapKit.framework */,
 				429297121CAA0A2D003E0F0D /* GeolocationFench */,
 				429297111CAA0A2D003E0F0D /* Products */,
 			);
@@ -74,6 +80,7 @@
 		429297131CAA0A2D003E0F0D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4292972C1CAA2083003E0F0D /* trace.gpx */,
 				429297141CAA0A2D003E0F0D /* main.m */,
 			);
 			name = "Supporting Files";
@@ -137,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				429297231CAA0A2D003E0F0D /* LaunchScreen.storyboard in Resources */,
+				4292972D1CAA2083003E0F0D /* trace.gpx in Resources */,
 				429297201CAA0A2D003E0F0D /* Assets.xcassets in Resources */,
 				4292971E1CAA0A2D003E0F0D /* Main.storyboard in Resources */,
 			);
